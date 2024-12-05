@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student List</h1>
+
+        <div class="student-board">
+            <h2>Student Board</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Age</th>
+                        <th>Study Program</th>
+                        <th>Student Number</th>
+                    </tr>
+                </thead>
+                <tbody id="studentTableBody"></tbody>
+            </table>
+        </div>
+
+
+        <form id="studentForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" min="1" required>
+            </div>
+            <div class="form-group">
+                <label for="program">Study Program:</label>
+                <input type="text" id="program" required>
+            </div>
+            <div class="form-group">
+                <label for="number">Student Number:</label>
+                <input type="text" id="number" required>
+            </div>
+            <a href="window1.html" class="back-button">
+                <button type="button">Back</button>
+            </a>
+            <button type="submit">Add Student</button>
+            
+        </form>
+        
+        
+    </div>
+
+
+    <script src="index2.js"></script>
+</body>
+</html>

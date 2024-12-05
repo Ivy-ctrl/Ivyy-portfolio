@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <link rel="stylesheet" href="styles3.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Erasmus Program Qualification</h1>
+        
+        <div class="form-group">
+          <label for="times-attended">How many times have you attended Erasmus?</label>
+          <input list="number-times-attended" id="times-attended" />
+          <datalist id="number-times-attended">
+            <option value="none"></option>
+            <option value="once"></option>
+            <option value="twice"></option>
+          </datalist>
+        </div>
+        
+        <div class="form-group">
+          <label for="english-Level">What is your level of English?</label>
+          <input list="level-of-English" id="english-Level" />
+          <datalist id="level-of-English">
+            <option value="C2"></option>
+            <option value="C1"></option>
+            <option value="B2"></option>
+            <option value="lower"></option>
+          </datalist>
+        </div>
+        
+        <div class="form-group">
+          <label for="gpa">What is your GPA?</label>
+          <input type="number" id="gpa"/>
+        </div>
+        
+        <div class="button-group">
+            <a href="window1.html"><button>Back</button></a>
+          <button id="save-button2" onclick="saveErasmusAnswers()">Save</button>
+          
+        </div>
+        <div id="result" style="margin-top: 20px; color: white;"></div>
+      </div>
+      
+   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index3.js" charset="UTF-8"></script>   
+</body>
+</html>

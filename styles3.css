@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    background-color: #003135;
+    margin: 0;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .form-container{
+      display: flex;
+      background-color: #0FA4AF;
+      padding: 20px;
+      border-radius: 20px;
+      flex-direction: column;
+      gap: 15px;
+      
+  }
+  .form-container h1{
+      color: #964734;
+      width: 400px;
+      font-size: 28px;
+      margin-bottom: 10px;
+      text-align: center;
+  }
+  .form-group {
+  display: flex;
+  flex-direction: column;
+}
+.form-group label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.button-group {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+}
+.button-group button{
+  background-color: #964734;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+.button-group button:hover {
+  background-color: #723627;
+}
